@@ -1,5 +1,6 @@
 #!/bin/sh
+#  lsd - the ls daemon
 
 while :; do
-	ls "$1"
+	ls "$@"
 done &
